@@ -29,6 +29,7 @@ You've got a couple of options that depend on how you installed Apache.
    to enable it (or disable it if it is already enabled). A check mark next to
    a module indicates that it is enabled. WampServer will automatically restart
    the Apache service after you enable a module.
+
 2. **Manually editing `httpd.conf`**. This assumes that you have manually
    installed Apache. You will need to locate the `httpd.conf` file which is
    normally in the `conf` folder in the folder where you installed Apache (for
@@ -73,6 +74,7 @@ Run a periodic scanner to make sure nothing suspicious is running on a host you
 control, and use the ServerSignature to determine if this is the web server and
 version that you expect.
 
+
 ## Performance
 
 ### Configure ETags
@@ -83,7 +85,7 @@ FileETag None
 
 Entity tags (ETags) is a mechanism that web servers and browsers use to
 determine whether the component in the browser's cache matches the one on the
-origin server. (An "entity" is another word a "component": images, scripts,
+origin server. (An "entity" is another word for "component": images, scripts,
 stylesheets, etc.) ETags were added to provide a mechanism for validating
 entities that is more flexible than the last-modified date. An `ETag` is a
 string that uniquely identifies a specific version of a component. The only
