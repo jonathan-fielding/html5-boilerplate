@@ -1,5 +1,5 @@
 [HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
-table of contents](README.md)
+table of contents](TOC.md)
 
 # Frequently asked questions
 
@@ -12,11 +12,10 @@ URLs](http://paulirish.com/2010/the-protocol-relative-url/)
 problematic when you try to view your local files directly in the browser. The
 browser will attempt to fetch the file from your local file system. We
 recommend that you use a local server to test your pages (or Dropbox). This can
-be done using Python by running `python -m SimpleHTTPServer` from your local
-directory, using Ruby by installing and running
-[asdf](https://rubygems.org/gems/asdf), and by installing any one of XAMPP,
-MAMP, or WAMP.
-
+be done using Python 2.x by running `python -m SimpleHTTPServer` or Python 3.x
+with `python -m http.server` from your local directory, using Ruby by installing
+and running [asdf](https://rubygems.org/gems/asdf), and by installing any one of
+XAMPP, MAMP, or WAMP.
 
 ### Why don't you automatically load the latest version of jQuery from the Google CDN?
 
@@ -36,32 +35,13 @@ putting the code at the bottom keeps all the scripts together and reinforces
 that scripts at the bottom are the right move.
 
 
-### How can I integrate [Twitter Bootstrap](http://twitter.github.com/bootstrap/) with HTML5 Boilerplate?
+### How can I integrate [Twitter Bootstrap](http://getbootstrap.com/) with HTML5 Boilerplate?
 
 You can use [Initializr](http://initializr.com) to create a custom build that
 includes HTML5 Boilerplate with Twitter Bootstrap.
 
 Read more about how [HTML5 Boilerplate and Twitter Bootstrap complement each
 other](http://www.quora.com/Is-Bootstrap-a-complement-OR-an-alternative-to-HTML5-Boilerplate-or-viceversa/answer/Nicolas-Gallagher).
-
-
-### How do I prevent phone numbers looking twice as large and having a Skype highlight?
-
-If this is occurring, it is because a user has the Skype browser extension
-installed.
-
-Use the following CSS to prevent Skype from formatting the numbers on your
-page:
-
-```css
-span.skype_pnh_container {
-    display: none !important;
-}
-
-span.skype_pnh_print_container {
-    display: inline !important;
-}
-```
 
 
 ### Do I need to upgrade my sites each time a new version of HTML5 Boilerplate is released?

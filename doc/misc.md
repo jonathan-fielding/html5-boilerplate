@@ -1,4 +1,5 @@
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation table of contents](README.md)
+[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
+table of contents](TOC.md)
 
 # Miscellaneous
 
@@ -21,5 +22,5 @@ globally ignore:
     excludesfile = ~/.gitignore
 ```
 
-* More on global ignores: http://help.github.com/ignore-files/
+* More on global ignores: https://help.github.com/articles/ignoring-files
 * Comprehensive set of ignores on GitHub: https://github.com/github/gitignore
